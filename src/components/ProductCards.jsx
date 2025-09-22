@@ -48,7 +48,6 @@ const ProductCards = () => {
       <div>
         <Pagination 
           totalPages={totalPages} 
-          cardPerPage={cardPerPage} 
           setCurrentPage={setCurrentPage} 
           currentPage={currentPage} 
         />

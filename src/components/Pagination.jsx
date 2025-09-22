@@ -6,7 +6,7 @@ import React from 'react'
 // - cardPerPage: (not directly used here, but usually helps calculate totalPages)
 // - setCurrentPage: function to update the current page in parent component
 // - currentPage: the current active page number
-const Pagination = ({ totalPages, cardPerPage, setCurrentPage, currentPage }) => {
+const Pagination = ({ totalPages, setCurrentPage, currentPage }) => {
  // Debugging: log total number of pages
 
   // Function to handle page changes (prev/next/page number)
