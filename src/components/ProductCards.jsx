@@ -1,7 +1,7 @@
 import React from 'react'
 import ProductLayout from '../sample/ProductLayout'
 import FilterPanel from '../components/FilterPanel'
-import Pagination from './pagination'
+import Pagination from './Pagination'
 import sampledata from "../sample/sampleData"
 
 const ProductCards = () => {
